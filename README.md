@@ -10,7 +10,11 @@ The server is a django program running on default port (8000).
 | translate/           |         translates plain text         | text: text to translate, langIn: origin language, langOut: target language |
 | translate/json/      |           translates a json           | json: json to translate, langIn: origin language, langOut: target language |
 
-For translations it uses google translate service of rapid api
+For translations it uses google translate service of rapid api.
+
+### Deployment
+
+Information about deployment can be found [here](https://docs.djangoproject.com/en/3.0/howto/deployment/).
 
 ## Client
 
