@@ -17,3 +17,8 @@ For translations it uses google translate service of rapid api
 The client is a Vue.js program running on default port (8000).
 
 It supports translations of user input as well as file uploads (txt and json).
+
+### Deployment
+
+Information about deployment can be found [here](https://cli.vuejs.org/guide/deployment.html#general-guidelines).
+For deployment on a linux server I recommend ubuntu, where it is quite easy to setup secured traffic (https) (e.x. [certbot](https://certbot.eff.org/lets-encrypt/ubuntubionic-nginx)) and routing (e.x. [nginx](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/))
